@@ -1,62 +1,125 @@
-import java.util.*;
-public class JavaPrac {
-    public static void main(String[] args) {
-//        String[] s=new String[6];
-//    Scanner sc=new Scanner(System.in);
-//    for (int i=0;i<=s.length-1;i++){
-//        System.out.print("Enter Your Input to Array :");
-//        s[i]=sc.nextLine();
+import java.util.Random;
+import java.util.Scanner;
+
+public class JavaPrac{
+    public static  void main(String[] args){
+
+
+        //Random random=new Random();
+//int data=random.nextInt(1,6);
+//System.out.printf("the Integer Random Value :  %d \n",data);
+//double data2=random.nextDouble(1,4);
+//System.out.printf("The Double Random Value :  %f \n",data2);
+//Boolean data3=random.nextBoolean();
+//System.out.printf("the Boolen Value :  %b \n",data3);
+
+
+
+//
+//
+//double a  =sc.nextDouble();
+//       double  sign=Math.signum(a);
+//
+//if (sign==1.0){
+//    System.out.printf(" %f is positive number",a);
+//
+//}else if(sign==0.0){
+//    System.out.printf("%f is zero",a);
+//}else{
+//    System.out.printf("%f is negative number",a);
+////}
+
+        Scanner sc=new Scanner(System.in);
+
+//
+//
+//
+//        System.out.print("Enter a Year : ");
+//
+//        Scanner sc=new Scanner(System.in);
+//        int year=sc.nextInt();
+//        if (year%4==0 && year%100!=0){
+//            System.out.printf("%d is a leap year \n",year);
+//        }
+//else{
+//    System.out.printf("%d is not a leap year \n",year);
+//        }
+
+
+
+
+
+
+
+//
+//int a=sc.nextInt();
+//int b=sc.nextInt();
+//int c=sc.nextInt();
+//int Gretest=0;
+//if (a >b ){
+//    if (c>a){
+//       Gretest=c;
 //    }
-//    for(String ss:s){
-//        System.out.println(ss+" ");
+//    else{
+//       Gretest=a;
+//    }
+//}
+//else if(a<b){
+//    if(c>b){
+//      Gretest=c;
+//    }
+//    else{
+//       Gretest=b;
 //    }
 //
-
-//int [] numbers={0,2,4,5,8,9,1};
-//int target=8;
-//for(int g:numbers){
-//    if(target==g){
-//        System.out.println("Your Target is Found At Index :" +g);
-//    }
 //
 //}
-
-
-//       System.out.println(summing(1,2,3,3,4,3,5,34,3,43));
 //
-//    }
-//    static  double summing(int ... number) {
-//        int sum = 0;
-//        for (int i = 0; i <= number.length - 1; i++) {
-//            sum += number[i];
-//
-//        }
-//        return sum;
-//    }
-
-//        int num1[]={0,23,4,2,4,2};
-//        int num2[]={3,35,63,5,2,5};
-//        int num3[]={2,44,5,3,5,5};
-//        int nums[][]={num1,num2,num3};
-////        for(int[] n:nums){
-////            for(int no:n){
-////                System.out.println(no);
-////            }
-////            System.out.println();
-////        }
-//
-//
-//System.out.println(nums[0][5]);
+//System.out.println(Gretest);
 
 
-        String Questions[]={"1.rere","2.egrhe","3.gghre","4.ibdsjf"};
-String Answers[][]={{
-        "1.de","2.fdf"}
-};
+//if(a%10==b%10){
+//    System.out.println("yes ");
+//}else{
+//    System.out.print("no");
+//}
+//int por= ((a%10)==(b%10))?1:0;
+//System.out.print(por);
 
 
+System.out.print("enter a character : ");
 
+char vorc=sc.next().charAt(0);
 
-
-    }
+if (vorc == 'a' || vorc=='A' || vorc =='e' || vorc=='E'  || vorc=='i' || vorc=='I'  || vorc=='o' || vorc=='O' || vorc =='u' || vorc=='U' ){
+    System.out.println("This is a Vowel ");
 }
+else{
+    System.out.println("This is a Character ");
+}
+
+
+
+
+
+
+
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//flag,precison,string-char,width,random method
